@@ -39,7 +39,6 @@ Passionate about improving Web3 security through active participation in bug bou
     <li>Continuously study real-world audit reports to stay ahead of emerging threats in the DeFi space.</li>
 </ul>
 </details>
-<br/>
 
 ---
 
