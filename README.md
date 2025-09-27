@@ -23,9 +23,16 @@ My journey from building data-driven backend systems to securing blockchain prot
 <br/>
 A decentralized, crypto-collateralized stablecoin protocol inspired by MakerDAO's architecture.
 <ul>
-    <li>Architected core smart contracts in Solidity to manage collateral (WETH & WBTC), mint/burn a stablecoin, and handle liquidations.</li>
-    <li>Integrated Chainlink Price Feeds with built-in stale price checks to ensure system solvency and oracle reliability.</li>
-    <li>Ensured protocol robustness with the Foundry framework, implementing comprehensive fuzz and invariant testing to maintain overcollateralization at all times.</li>
+    <li>Developed a decentralized, crypto-collateralized stablecoin inspired by MakerDAO, implementing core
+functionalities like collateral management (WETH & WBTC), minting/burning the stablecoin, and liquidation
+mechanics.</li>
+    <li>Utilized Foundry for comprehensive testing, including unit tests and property-based fuzzing, to maintain critical
+protocol invariants such as overcollateralization.</li>
+    <li>Integrated Chainlink Price Feeds with a built-in OracleLib to detect stale prices and freeze the protocol, ensuring
+data integrity for the liquidation mechanism.</li>
+    <li>Proactively addressed and resolved security vulnerabilities by implementing a non-reentrant guard and analyzing a
+Codehawks audit report, gaining deep insight into real-world issues such as arithmetic flaws, business logic risks,
+and oracle vulnerabilities.</li>
 </ul>
 </details>
 
