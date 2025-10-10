@@ -53,5 +53,5 @@ Passionate about improving Web3 security through active participation in bug bou
 
 - **Blockchain**: Solidity, Foundry, Security Audits
 - **Back-end**: Node.js, PostgreSQL, MongoDB, RabbitMQ
-- **Front-end**: JavaScript, React, Webpack, Vite
+- **Front-end**: TypeScript, JavaScript, React, Webpack, Vite
 - **DevOps & Tools**: Git, GitHub, Docker, CI/CD, Linux, GCP
