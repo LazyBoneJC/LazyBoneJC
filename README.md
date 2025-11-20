@@ -1,57 +1,63 @@
 # Hi there, I'm Yu-Wei Chang 👋
 
-<a href="https://www.linkedin.com/in/yu-wei-chang-6714a91a4/">
-  <img align="left" alt="Yu-Wei's LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>
-<a href="mailto:wc065426@gmail.com">
-  <img align="left" alt="Yu-Wei's Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
-</a>
+<div align="left">
+  <a href="https://www.linkedin.com/in/yu-wei-chang-6714a91a4/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:wc065426@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
 
 <br />
-<br />
 
-I'm a software engineer with a deep passion for the decentralized world. My focus is on building secure, robust, and impactful Web3 applications. I thrive on diving deep into DeFi protocols, hunting for vulnerabilities, and turning complex ideas into clean, efficient code.
+I'm a **Web3 Full-stack Engineer** with a security-first mindset.
 
-My journey from building data-driven backend systems to securing blockchain protocols has given me a strong preventative mindset—always thinking about security and resilience first.
+Transitioning from building data-driven backend systems to the decentralized web, I focus on bridging the gap between robust smart contracts and seamless front-end experiences. I thrive on building resilient DApps, hunting for protocol vulnerabilities, and solving complex engineering challenges.
 
 ---
 
-### 🚀 My Main Projects
+### 🚀 Featured Projects
+
+<details open>
+<summary><b>💎 PrismDrop (Full-stack DApp)</b></summary>
+<br/>
+An efficient ERC-20 token distribution protocol built with Next.js 16, designed to batch-send tokens in a single transaction.
+<ul>
+    <li><b>Modern Stack:</b> Built with <b>Next.js 16 (App Router)</b>, <b>RainbowKit</b>, and <b>Wagmi v2</b> for a reactive and performant user experience.</li>
+    <li><b>Smart Contract Integration:</b> Implemented seamless interaction with custom <code>TSender</code> contracts and standard ERC-20 functions (approve/allowance).</li>
+    <li><b>Robust QA Strategy:</b> Solved complex dependency conflicts (Dependency Hell) to implement automated <b>E2E testing using Synpress v4 (Alpha) & Playwright</b>, ensuring reliability across wallet interactions.</li>
+</ul>
+</details>
 
 <details>
-<summary><b>💰 DeFi Stablecoin</b></summary>
+<summary><b>💰 DeFi Stablecoin (Smart Contract Engineering)</b></summary>
 <br/>
 A decentralized, crypto-collateralized stablecoin protocol inspired by MakerDAO's architecture.
 <ul>
-    <li>Developed a decentralized, crypto-collateralized stablecoin inspired by MakerDAO, implementing core
-functionalities like collateral management (WETH & WBTC), minting/burning the stablecoin, and liquidation
-mechanics.</li>
-    <li>Utilized Foundry for comprehensive testing, including unit tests and property-based fuzzing, to maintain critical
-protocol invariants such as overcollateralization.</li>
-    <li>Integrated Chainlink Price Feeds with a built-in OracleLib to detect stale prices and freeze the protocol, ensuring
-data integrity for the liquidation mechanism.</li>
-    <li>Proactively addressed and resolved security vulnerabilities by implementing a non-reentrant guard and analyzing a
-Codehawks audit report, gaining deep insight into real-world issues such as arithmetic flaws, business logic risks,
-and oracle vulnerabilities.</li>
+    <li><b>Core Logic:</b> Developed core mechanics including collateral management (WETH/WBTC), minting/burning, and liquidation engines.</li>
+    <li><b>Security & Testing:</b> Utilized <b>Foundry</b> for comprehensive unit tests and property-based fuzzing to maintain protocol invariants (e.g., overcollateralization).</li>
+    <li><b>Oracle Integration:</b> Integrated Chainlink Price Feeds with a custom OracleLib to prevent stale price data and protect against bad debt.</li>
 </ul>
 </details>
 
 <details>
-<summary><b>🛡️ Bug Bounty Hunting</b></summary>
+<summary><b>🛡️ Bug Bounty Hunting (Security)</b></summary>
 <br/>
 Passionate about improving Web3 security through active participation in bug bounty programs.
 <ul>
-    <li>Identified and reported 5 vulnerabilities (3 critical) in the Lido protocol via the Immunefi platform.</li>
-    <li>Provided comprehensive reports including root cause analysis, PoCs, and mitigation strategies.</li>
-    <li>Continuously study real-world audit reports to stay ahead of emerging threats in the DeFi space.</li>
+    <li><b>Track Record:</b> Identified and reported 5 vulnerabilities (3 critical) in the <b>Lido protocol</b> via Immunefi.</li>
+    <li><b>Analysis:</b> specialized in root cause analysis, creating PoCs, and proposing mitigation strategies for complex DeFi protocols.</li>
 </ul>
 </details>
 
 ---
 
-### 💻 My Tech Stack
+### 💻 Tech Stack
 
-- **Blockchain**: Solidity, Foundry, Security Audits
-- **Back-end**: Node.js, PostgreSQL, MongoDB, RabbitMQ
-- **Front-end**: TypeScript, JavaScript, React, Webpack, Vite
-- **DevOps & Tools**: Git, GitHub, Docker, CI/CD, Linux, GCP
+| Domain | Technologies |
+| :--- | :--- |
+| **Web3 Frontend** | Next.js 16, React 19, TypeScript, Wagmi, Viem, RainbowKit, Tailwind CSS |
+| **Smart Contract** | Solidity, Foundry, OpenZeppelin, Chainlink, Security Audits |
+| **Testing (QA)** | Synpress, Playwright, Vitest, Fuzzing |
+| **Backend & DevOps** | Node.js, PostgreSQL, Docker, CI/CD (GitHub Actions), Linux |
