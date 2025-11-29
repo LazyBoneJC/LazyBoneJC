@@ -20,6 +20,17 @@ Transitioning from building data-driven backend systems to the decentralized web
 ### 🚀 Featured Projects
 
 <details open>
+<summary><b>🏪 Neon Marketplace (Full-stack NFT Platform)</b></summary>
+<br/>
+A non-custodial, cyberpunk-themed NFT marketplace supporting on-chain SVG NFTs and ERC-20 payments, deployed on Sepolia Testnet.
+<ul>
+    <li><b>Custom Indexing Architecture:</b> Engineered a high-performance event indexer using <b>Rindexer (Rust)</b> and PostgreSQL, bypassing traditional subgraphs for real-time data synchronization.</li>
+    <li><b>Smart Contract Engineering:</b> Developed the core marketplace protocol (Listing/Buying/Canceling) and implemented fully <b>On-chain SVG generation</b> (NinjaNFT) using Solidity & Foundry.</li>
+    <li><b>DevOps & Security:</b> Solved complex Monorepo deployment challenges on <b>Zeabur (Dockerized Rust backend)</b> and Vercel. Integrated <b>Circle's Compliance API</b> to automatically screen and block high-risk wallets.</li>
+</ul>
+</details>
+
+<details>
 <summary><b>💎 PrismDrop (Full-stack DApp)</b></summary>
 <br/>
 An efficient ERC-20 token distribution protocol built with Next.js 16, designed to batch-send tokens in a single transaction.
@@ -59,5 +70,5 @@ Passionate about improving Web3 security through active participation in bug bou
 | :--- | :--- |
 | **Web3 Frontend** | Next.js 16, React 19, TypeScript, Wagmi, Viem, RainbowKit, Tailwind CSS |
 | **Smart Contract** | Solidity, Foundry, OpenZeppelin, Chainlink, Security Audits |
-| **Testing (QA)** | Synpress, Playwright, Vitest, Fuzzing |
-| **Backend & DevOps** | Node.js, PostgreSQL, Docker, CI/CD (GitHub Actions), Linux |
+| **Backend & Indexing** | **Rindexer (Rust)**, Node.js, PostgreSQL, GraphQL |
+| **DevOps & QA** | Docker, **Zeabur**, Vercel, Synpress, Playwright, CI/CD (GitHub Actions) |
