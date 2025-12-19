@@ -70,5 +70,5 @@ Passionate about improving Web3 security through active participation in bug bou
 | :--- | :--- |
 | **Web3 Frontend** | Next.js 16, React 19, TypeScript, Wagmi, Viem, RainbowKit, Tailwind CSS |
 | **Smart Contract** | Solidity, Foundry, OpenZeppelin, Chainlink, Security Audits |
-| **Backend & Indexing** | **Rindexer (Rust)**, Node.js, PostgreSQL, GraphQL |
-| **DevOps & QA** | Docker, **Zeabur**, Vercel, Synpress, Playwright, CI/CD (GitHub Actions) |
+| **Backend & Indexing** | Rindexer, Node.js, PostgreSQL, GraphQL |
+| **DevOps & QA** | Docker, AWS, Vercel, Synpress, Playwright, CI/CD (GitHub Actions) |
