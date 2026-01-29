@@ -11,46 +11,46 @@
 
 <br />
 
-### ⚡ Web3 Full-stack Engineer | Frontend & Security Focus
+### ⚡ Software Engineer | Backend & Cloud Infrastructure
 
-I bridge the gap between **high-performance interfaces** and **secure smart contract architectures**.
+I specialize in building **high-performance backend systems** and **diagnosing complex technical issues**.
 
-Transitioning from building data-driven backend systems (optimizing pipelines by 400x) to the decentralized web, I specialize in building **pixel-perfect DApps** that are not only visually engaging but also cryptographically secure. I leverage **AI-agentic workflows (Cursor/Claude)** to accelerate development cycles while maintaining strict code quality.
+With a strong foundation in **Node.js** and **System Architecture**, I transitioned from optimizing legacy data pipelines (achieving a **400x speedup**) to engineering robust distributed systems. My passion lies in **troubleshooting**—whether it's debugging a race condition in a high-concurrency app or analyzing logs to identify root causes in cloud infrastructure.
 
 ---
 
 ### 🚀 Featured Projects
 
 <details open>
-<summary><b>⚡ NexusRPC (Infrastructure Landing Page)</b></summary>
+<summary><b>🛠️ High-Performance Distributed Trading Platform (Neon Marketplace)</b></summary>
 <br/>
-<i>Currently showcased for Infrastructure Providers.</i> A high-conversion landing page designed for RPC node providers, focusing on SEO, performance, and visual storytelling.
+A scalable asset trading platform featuring a Rust-based backend indexer and containerized deployment.
 <ul>
-    <li><b>Frontend Engineering:</b> Built with <b>Next.js 14</b> and <b>Tailwind CSS</b>, achieving a perfect <b>100/100 Lighthouse Performance score</b>.</li>
-    <li><b>Motion & UX:</b> Integrated <b>Framer Motion</b> for smooth scroll animations and interactive pricing components to maximize user engagement.</li>
-    <li><b>Business Logic:</b> Modeled real-world infrastructure data structures (Protocol Support, Uptime Stats) to demonstrate deep domain understanding.</li>
-    <li><a href="https://nexus-rpc.vercel.app/">🔴 Live Demo</a> | <a href="https://github.com/LazyBoneJC/NexusRPC">💻 View Code</a></li>
+    <li><b>Backend Engineering:</b> Engineered a custom event indexer using <b>Rust</b> & <b>PostgreSQL</b> to replace standard polling, reducing data retrieval latency by <b>90%</b>.</li>
+    <li><b>System Architecture:</b> Designed a high-availability architecture using <b>Docker</b> for seamless deployment and <b>Next.js</b> for the client side.</li>
+    <li><b>API Integration:</b> Integrated Compliance APIs (KYC/AML) to handle secure, regulatory-compliant data transactions.</li>
+    <li><a href="https://neon-marketplace.zeabur.app/">🔴 Live Demo</a> | <a href="https://github.com/LazyBoneJC/NeonMarketplace">💻 View Code</a></li>
 </ul>
 </details>
 
 <details open>
-<summary><b>🏪 Neon Marketplace (Full-stack NFT Aggregator)</b></summary>
+<summary><b>⚡ High-Performance Landing Page (NexusRPC)</b></summary>
 <br/>
-A compliance-ready NFT trading platform featuring a custom Rust-based indexer and on-chain SVG generation.
+A performance-obsessed web application designed for infrastructure providers, focusing on SEO and rendering efficiency.
 <ul>
-    <li><b>High-Performance Indexing:</b> Engineered a custom event indexer using <b>Rindexer (Rust)</b> & PostgreSQL, reducing data retrieval latency by 90% compared to standard RPC calls.</li>
-    <li><b>Compliance Integration:</b> Integrated <b>Circle's Compliance API</b> to automatically screen high-risk wallets, aligning with regulatory standards for centralized exchanges (CEX).</li>
-    <li><b>Full-Stack Architecture:</b> Handled everything from Solidity contracts (Marketplace logic) to the Next.js frontend and Dockerized deployment on Zeabur.</li>
+    <li><b>Frontend Optimization:</b> Built with <b>Next.js 14</b> and <b>Tailwind CSS</b>, achieving a perfect <b>100/100 Lighthouse Performance score</b>.</li>
+    <li><b>UX & Motion:</b> Integrated <b>Framer Motion</b> for smooth interactive components while maintaining optimal First Contentful Paint (FCP).</li>
+    <li><a href="https://nexus-rpc.vercel.app/">🔴 Live Demo</a> | <a href="https://github.com/LazyBoneJC/NexusRPC">💻 View Code</a></li>
 </ul>
 </details>
 
 <details>
-<summary><b>🛡️ Smart Contract Security Research</b></summary>
+<summary><b>🔍 Technical Research & Troubleshooting (Security Audit)</b></summary>
 <br/>
-I don't just build; I break things to make them stronger. Active participation in bug bounty programs helps me write safer code.
+I enjoy deep-diving into complex codebases to find logic flaws that automated tools miss.
 <ul>
-    <li><b>Lido Protocol Audit:</b> Identified a <b>Critical severity vulnerability</b> (functional deadlock) and potential precision loss issues in the Dual Governance mechanism.</li>
-    <li><b>Outcome:</b> Authored comprehensive reports with PoC (Proof of Concept), demonstrating a deep understanding of EVM state management.</li>
+    <li><b>Root Cause Analysis:</b> Conducted a deep-dive audit on the Lido Protocol, successfully identifying a <b>functional deadlock</b> (Critical severity) and precision loss issues.</li>
+    <li><b>Documentation:</b> Authored comprehensive technical reports detailing reproduction steps and remediation strategies.</li>
 </ul>
 </details>
 
@@ -60,11 +60,11 @@ I don't just build; I break things to make them stronger. Active participation i
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Frontend & Design** | **Next.js**, React, TypeScript, Tailwind CSS, Framer Motion, Shadcn/UI |
-| **Web3 Integration** | Wagmi, Viem, RainbowKit, WalletConnect |
-| **Smart Contract** | Solidity, Foundry, OpenZeppelin, Security Audits (Immunefi/Codehawks) |
-| **Backend & DevOps** | Node.js, PostgreSQL, Docker, AWS, Vercel |
-| **AI Workflow** | Cursor, Antigravity, Claude, Gemini, V0.dev |
+| **Backend & Cloud** | **Node.js**, Express, PostgreSQL, Docker, AWS, Azure (Fundamental), RabbitMQ |
+| **Frontend** | **Next.js**, TypeScript, React, Tailwind CSS |
+| **Tools & DevOps** | Git, Linux CLI, Postman, Log Analysis |
+| **AI Workflow** | Cursor, Antigravity, Claude, Gemini |
+| **Blockchain** | Solidity, Foundry, Rindexer (Rust-based Indexer), Wagmi, Viem, RainbowKit |
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=LazyBoneJC&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" />
