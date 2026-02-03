@@ -11,7 +11,7 @@
 
 <br />
 
-### ⚡ Software Engineer | Backend & Cloud Infrastructure
+### ⚡ Software Engineer | Backend & Web3 & Cloud Infrastructure
 
 I specialize in building **high-performance backend systems** and **diagnosing complex technical issues**.
 
