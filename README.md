@@ -60,7 +60,7 @@ I enjoy deep-diving into complex codebases to find logic flaws that automated to
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Backend & Cloud** | **Node.js**, Express, PostgreSQL, Docker, AWS, Azure (Fundamental), RabbitMQ |
+| **Backend & Cloud** | **Node.js**, Express, Python (Basic), PostgreSQL, Docker, AWS, RabbitMQ |
 | **Frontend** | **Next.js**, TypeScript, React, Tailwind CSS |
 | **Tools & DevOps** | Git, Linux CLI, Postman, Log Analysis |
 | **AI Workflow** | Cursor, Antigravity, Claude, Gemini |
