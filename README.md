@@ -31,7 +31,7 @@ A full-stack trading platform architected for high availability and low-latency 
     <li><b>High-Performance Indexer:</b> Engineered a custom event indexer using <b>Rust</b> & <b>PostgreSQL</b> to replace standard polling, reducing data retrieval latency by <b>90%</b>.</li>
     <li><b>Infrastructure & DevOps:</b> Deployed a containerized microservices architecture using <b>Docker</b> to ensure consistent environments across development and production.</li>
     <li><b>Complex State Management:</b> Implemented atomic transactions and compliant API integrations (KYC/AML) to handle secure asset transfers.</li>
-    <li><a href="https://neon-marketplace.zeabur.app/">🔴 Live Demo</a> | <a href="https://github.com/LazyBoneJC/NeonMarketplace">💻 View Code</a></li>
+    <li><a href="https://neon-marketplace.zeabur.app/">🔴 Live Demo</a> | <a href="https://github.com/LazyBoneJC/Neon-Marketplace">💻 View Code</a></li>
 </ul>
 </details>
 
